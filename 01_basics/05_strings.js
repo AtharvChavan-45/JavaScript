@@ -4,7 +4,8 @@ const repoCount = 50;
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String('Atha-rv')
+const gameName = "Atha-rv"
+//new String('Atha-rv')
 
 console.log(gameName[0]);        //output:A
 console.log(gameName.__proto__);  //output : {}
@@ -16,8 +17,8 @@ console.log(gameName.indexOf('t')); // 1
 const newString = gameName.substring(0,4)
 console.log(newString);      //Atha
 
-const anotherString = gameName.slice(0,4)
-console.log(anotherString);    //Atha
+//const anotherString = gameName.slice(0,4)
+console.log(gameName.slice(0,4));    //Atha
 
 const newStringOne ="       Atharv       "
 console.log(newStringOne);  
