@@ -1,6 +1,6 @@
 const myArr = [ 0,1,2,3,4,5,6];
 const friends =["sahil",,"panjab"];
-const myArr2 = (1,2,3,4)
+const myArr2 = (1,2,3,4);
 
 console.log(myArr[0]);  // Accessing array element which has 0 index
 
@@ -16,18 +16,17 @@ myArr.shift();        //delete first element of array
 console.log(myArr.includes(9));  //It check the element is present or not 
 console.log(myArr.indexOf(9));    //it show -1 because element is not in array
 
-const newArr = myArr.join();
+//const newArr = myArr.join();
 
 console.log(myArr);  // output : [ 0, 1, 2, 3, 4, 5, 6, 7 ]
 
-console.log(newArr);  // it represent the string output : 0,1,2,3,4,5,6,7
+console.log(myArr.join());  // it represent the string output : 0,1,2,3,4,5,6,7
 
 // slice & splice
 
 console.log("A" , myArr);
 
 const myn1 = myArr.slice(1,3); // include 1 and 2 only not 3
-
 console.log(myn1);          //output : [1,2]
 console.log("B", myArr);    // output : [0,1,2,3,4,5,6,7]
 
