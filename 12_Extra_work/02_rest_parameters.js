@@ -27,3 +27,7 @@ showDetails("Atharv", "JS", "React", "Flutter");
 const multiply = (...nums) => nums.reduce((a, b) => a * b, 1);
 
 console.log(multiply(2, 3, 4)); // 24
+
+// Rest parameters are always an array.
+// typeof for arrays returns "object" (JavaScript behavior)
+// Correct way to check is Array.isArray()
